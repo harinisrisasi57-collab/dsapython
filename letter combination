@@ -1,0 +1,13 @@
+from itertools import product
+
+d = {
+    '1': ['a', 'b'],
+    '2': ['c', 'd'],
+    '3': ['e', 'f']
+}
+
+combinations = product(*d.values())
+
+print("Combinations:")
+for i in combinations:
+    print("".join(i))
