@@ -1,0 +1,6 @@
+t = (10, 20, 30, 40, 50)
+
+total = sum(t)
+
+print("Tuple:", t)
+print("Sum of elements:", total)
